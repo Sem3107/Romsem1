@@ -1,0 +1,37 @@
+.sidebarWrap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /* background-color: rgb(247, 245, 245); */
+    width: 300px;
+    text-align: center;
+    height: 100vh;
+
+}
+.sidebar_link{
+    color: black;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.sidebar_link:hover{
+    color: orange
+}
+
+.logoWrap{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gainsboro;
+}
+
+.logoimg{
+    height: 50px;
+    width: 50px;
+}
+
+.logoName{
+    mix-blend-mode: multiply;
+    height: 100px;
+    width: 150px;
+}

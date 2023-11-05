@@ -1,0 +1,6 @@
+.homeWrap{
+    display: flex;
+    gap: 20px;
+    max-width: 1600px;
+  /* height: 120vh; */
+}

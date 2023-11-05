@@ -1,0 +1,69 @@
+.headerwrap{
+    height: 100px;
+    background-color: rgb(247, 245, 245);
+    width: 100%;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.selectAndSearchWrap{
+    display: flex;
+    justify-content: space-between;
+}
+.contactWrap{
+    border-right: 1px solid gainsboro;
+    padding-right: 5px;
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+}
+
+.workTime p{
+    font-weight: 400;
+    font-size: 17px;
+}
+.poisk{
+    display: none;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 5px;
+    width: 400px;
+    border-radius: 10px;
+    border-color: orange;
+  
+}
+
+.header_select{
+    border-radius: 10px;
+    border: 2px solid orange;
+    width: 150px;
+ 
+}
+
+.searchInput{
+    display: none;
+}
+.selectWrapp{
+    margin-top: -25px;
+  /* margin-left: -20%; */
+}
+
+.header_select:focus{
+    border-radius: 10px;
+    border-color: orange;
+}
+.korzinkawrap{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.registerIcon{
+    color: black;
+    align-items: center;
+}
